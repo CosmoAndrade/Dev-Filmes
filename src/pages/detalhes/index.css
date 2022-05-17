@@ -1,0 +1,41 @@
+
+.dev-card-2{
+    display: flex;
+    width: 400px;
+    height: 400px;
+   
+    flex-direction: column;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #ccc;
+    margin:  0 auto;
+   
+ 
+}
+
+
+.dev-card-2 img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dev-description-2{
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    height: 350px;
+    justify-content: space-between;
+}
+
+p{
+    text-align: center;
+}
+
+.dev-description-2 h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
